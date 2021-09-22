@@ -1,0 +1,6 @@
+{
+	"appId": "net.librogame.corti",
+	"appName": "I Corti di LGL",
+	"webDir": "app-web",
+	"bundledWebRuntime": false
+}

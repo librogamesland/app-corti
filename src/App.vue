@@ -1,7 +1,11 @@
 <template>
-  <component :is="store.page"/>
+  <component :is="store.app.page"/>
 </template>
 <style>
+
+.pointer {
+  cursor: pointer;
+}
 
 .btn-rounded {
   padding: 14px 18px;
@@ -11,6 +15,7 @@
   border-bottom-left-radius: 185px 190px;
   margin: 0;
   -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 
 html, body, #app {

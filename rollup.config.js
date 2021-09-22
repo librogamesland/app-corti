@@ -81,7 +81,7 @@ export default {
 
 		!production && serve({
 			host: '0.0.0.0',
-			port: '3000',
+			port: '8900',
 			contentBase: ['app-web']
 
 		}),

@@ -7,10 +7,10 @@
     </a>
 
     <button disabled><i class="zmdi zmdi-file-text"></i> Continua lettura</button><br>
-    <button @click="store.page = 'PageBook'"><i class="zmdi zmdi-plus"></i> Nuova partita</button><br>
-    <button @click="store.page = 'PageSettings'"><i class="zmdi zmdi-settings"></i> Impostazioni</button><br>
+    <button @click="store.app.page = 'PageBook'"><i class="zmdi zmdi-plus"></i> Nuova partita</button><br>
+    <button @click="store.app.page = 'PageSettings'"><i class="zmdi zmdi-settings"></i> Impostazioni</button><br>
     <p style="margin-top: 12vh;">
-      <a style="color: var(--secondary) !important;" href="http://librogame.net">Scopri di più <i class="zmdi zmdi-open-in-new"></i></a>
+      <a style="color: var(--secondary) !important;" target="_blank" href="https://librogamesland.github.io/corti">Scopri di più <i class="zmdi zmdi-open-in-new"></i></a>
     </p>
   </main>
 </template>
@@ -34,8 +34,9 @@
   flex: 1 1 0px;
 }
 
-button{
+.page-home button{
   margin: 9px 7px;
+  font-size: 24px;
 }
 </style>
 

@@ -1,5 +1,5 @@
 <template>
-  <a class="mage-link" @click="store.visited.push(to)">
+  <a class="mage-link" @click="store.save.history.push(to)">
     <slot></slot>
   </a>
 </template>
@@ -15,5 +15,6 @@
     font-weight: bold;
     text-decoration: underline;
     color: blue;
+    cursor: pointer;
   }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <h1>Work in progress!</h1>
-  <button @click="store.page='PageHome'">Torna alla home</button>
+  <button @click="store.app.page='PageHome'">Torna alla home</button>
 </template>
 
 <script>

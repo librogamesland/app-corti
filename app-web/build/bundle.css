@@ -1,4 +1,7 @@
 
+.pointer {
+  cursor: pointer;
+}
 .btn-rounded {
   padding: 14px 18px;
   border-top-left-radius: 185px 160px;
@@ -7,6 +10,7 @@
   border-bottom-left-radius: 185px 190px;
   margin: 0;
   -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 html, body, #app {
   height: 100%;
@@ -72,8 +76,9 @@ nav > h1 {
   width: 100%;
   flex: 1 1 0px;
 }
-button{
+.page-home button{
   margin: 9px 7px;
+  font-size: 24px;
 }
 
 .page-book {
@@ -103,7 +108,7 @@ nav select option {
 }
 .book-content {
     padding: 20px 16px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     flex: 1 0 0px;
     overflow-y: auto;
 }
@@ -137,6 +142,13 @@ nav select option {
     overscroll-behavior: contain;
 }
 
+.mage-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
 .mage-dice {
   user-select: none;
   height: 65px !important;
@@ -149,13 +161,8 @@ nav select option {
   font-weight: bold;
 }
 
-.mage-link {
-    font-weight: bold;
-    text-decoration: underline;
-    color: blue;
-}
-
 .mage-note-number {
+    user-select: none;
     text-align: center !important;
 }
 .mage-note-number .content{
@@ -170,5 +177,15 @@ nav select option {
 .mage-note-number .counter i{
     padding: 8px;
     font-weight: bold;
+    cursor: pointer;
 }
 
+
+.mage-textarea {
+    line-height: 1.15; 
+    background-color: rgba(255,255,255,0.5); 
+    height: 160px; 
+    margin: 0 5px; 
+    padding: 8px; 
+    width: 100%;
+}

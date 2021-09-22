@@ -1,9 +1,9 @@
 <template>
-  <div :class="`page-book ${showNotes ? 'show-notes' : ''}`">
+  <div :class="`page-book ${save.notes ? 'show-notes' : ''}`">
     <nav>
-      <i @click="store.page = 'PageHome'" class="zmdi zmdi-home"></i>
-      <select @change="
-       store.visited.push($event.target.value)
+      <i @click="app.page = 'PageHome'" class="pointer zmdi zmdi-home"></i>
+      <select class="pointer" @change="
+       save.history.push($event.target.value)
       ">
         <option v-for="key in Object.keys(book.chapters).sort( (a, b) => {
 
@@ -18,15 +18,15 @@
         >{{chapterTitle(key)}}</option>
       </select>
       <h1 style="padding: 0 !important"></h1>
-      <i class="zmdi zmdi-rotate-right" 
-        v-if="store.visited.length > 1"
-        @click="store.visited.pop()"  
+      <i class="pointer zmdi zmdi-rotate-right" 
+        v-if="save.history.length > 1"
+        @click="save.history.pop()"  
       ></i>
 
       <div class="form-group">
         <label for="paperChecks1" class="paper-check">
           <span style="padding-right: 4px"> <i class="zmdi zmdi-edit"></i></span>
-          <input type="checkbox" name="paperChecks" id="paperChecks1" v-model="showNotes"> 
+          <input type="checkbox" name="paperChecks" id="paperChecks1" v-model="save.notes"> 
           <span></span>
         </label>
       </div>
@@ -36,15 +36,15 @@
     <v-runtime-template
       :template="`<div class='book-content'>${book.chapters[chapterKey].text}</div>`">
     </v-runtime-template>
-    <div class="book-notes" v-show="showNotes">
+    <div class="book-notes" v-show="save.notes">
       <div class="row">
-        <div class="col-fill col"><mage-counter>Combattività</mage-counter></div>
-        <div class="col-fill col"><mage-counter>Resistenza</mage-counter></div>
-        <div class="col-fill col"><mage-counter>Spirito</mage-counter></div>
+        <div class="col-fill col"><mage-counter save="com" :min="0" :max="30" :default="10">Combattività</mage-counter></div>
+        <div class="col-fill col"><mage-counter save="res" :min="0" :max="30" :default="20">Resistenza</mage-counter></div>
+        <div class="col-fill col"><mage-counter save="spi" :min="0" :max="30" :default="10">Spirito</mage-counter></div>
       </div>
       <div class="row">
         <div class="col-9 col">
-          <textarea placeholder="Inserisci note/oggetti..." style="line-height: 1.15; background-color: rgba(255,255,255,0.5); height: 160px; margin: 0 5px; padding: 8px; width: 100%;"/>
+          <MageTextarea/>
         </div>
         <div class="col-3 col" style="text-align:center">
           <mage-dice></mage-dice>
@@ -88,7 +88,7 @@
 
   .book-content {
     padding: 20px 16px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     flex: 1 0 0px;
     overflow-y: auto;
   }
@@ -137,6 +137,7 @@ import VRuntimeTemplate from "vue3-runtime-template"
 import MageLink from './MageLink.vue'
 import MageDice from './MageDice.vue'
 import MageCounter from './MageCounter.vue'
+import MageTextarea from './MageTextarea.vue'
 
 
 const isNaturalNumber = (str) => {
@@ -153,20 +154,22 @@ export default {
   methods: {
     isNaturalNumber,
     log: console.log,
-    chapterTitle: function(chapterKey)  {
+    chapterTitle(chapterKey)  {
       let title = this.book.chapters[chapterKey].title || chapterKey
       title = title.trim()
       return isNaturalNumber(title) ? `Par. ${title}` : title
     },
   },
   computed: {
-    chapterKey: function(){
-      return this.store.visited[this.store.visited.length - 1]
+    chapterKey(){
+      return this.save.history[this.save.history.length - 1]
     },
+    save(){ return this.store.save  },
+    app(){  return this.store.app   },
   },
 
   watch: {
-    showNotes: function(){
+    "save.notes" : function(){
       const t = document.querySelector('.book-content').scrollTop
       nextTick( () => {
         document.querySelector('.book-content').scrollTop = t
@@ -175,7 +178,7 @@ export default {
   },
   components: {
     VRuntimeTemplate, 
-    MageLink, MageDice, MageCounter,
+    MageLink, MageDice, MageCounter, MageTextarea
   },
 }
 </script>
