@@ -10,6 +10,12 @@ import replace from '@rollup/plugin-replace';
 import { rollupMagebook, encodeChapter, textToHtml, htmlToText } from 'magebook';
 
 
+const Jimp = require("jimp");
+Jimp.read("src/icon.png", (err, icon) => {
+  if (err) throw err;
+  icon.autocrop({cropSymmetric: true, leaveBorder: 50 }).resize(92, 92).write("app-web/icon.png");
+});
+
 const safeTags = [
   '<i>', '</i>', 
   '<b>', '</b>',

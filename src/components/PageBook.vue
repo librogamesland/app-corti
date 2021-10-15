@@ -1,7 +1,7 @@
 <template>
-  <div :class="`page-book ${save.notes ? 'show-notes' : ''}`">
+  <div class="page-book">
     <nav>
-      <i @click="app.page = 'PageHome'" class="pointer zmdi zmdi-home"></i>
+      <i @click="app.page = 'PageHome'" class="pointer zmdi zmdi-settings"></i>
       <select class="pointer" @change="
        save.history.push($event.target.value)
       ">
@@ -25,7 +25,7 @@
 
       <div class="form-group">
         <label for="paperChecks1" class="paper-check">
-          <span style="padding-right: 4px"> <i class="zmdi zmdi-edit"></i></span>
+          <span> <i class="zmdi zmdi-edit" style="padding-right: 4px !important"></i></span>
           <input type="checkbox" name="paperChecks" id="paperChecks1" v-model="save.notes"> 
           <span></span>
         </label>
@@ -93,10 +93,6 @@
     overflow-y: auto;
   }
 
-  .show-notes .book-content {
-        margin-bottom: -40px
-  }
-
   .book-content ul, .book-content ol{
       margin-block-start: 0px;
   }
@@ -119,13 +115,21 @@
   .book-notes {
     z-index: 100;
     min-height: 100px;
-    padding: calc(10px + 3vw) 5px 0 5px;
-    background-size: cover;
+    padding: 25px 5px 0 5px;
     background-image: url(../assets/res/paper.png);
     background-position-y: top;
-    background-repeat-y: no-repeat;
     overscroll-behavior: contain;
+    -webkit-box-shadow:0px 0px 16px 0px #8b8b8b;
+    box-shadow: 0px 0px 16px 0px #8b8b8b;
+        background-color: #e3e0de;
 
+  }
+
+  @media only screen and (min-width: 760px){
+    .book-notes, .page-book .book-content, nav {
+      padding-left: calc( 50vw - 380px );
+      padding-right: calc( 50vw - 380px );
+    }
   }
 </style>
 

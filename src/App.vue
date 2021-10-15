@@ -65,6 +65,12 @@ nav > i, nav > .form-group {
     padding: 0 calc(6px + 3vw) !important;
 }
 
+@media only screen and (min-width: 600px){
+  nav i {
+    padding: 0 20px !important;
+  }
+}
+
 nav > h1 {
   flex: 1 1 0px;
   text-overflow: ellipsis;
