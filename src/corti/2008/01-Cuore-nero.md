@@ -15,7 +15,9 @@ Non sai dire se le ragazze siano terrorizzate al pun- to giusto, adesso come ade
 
 “Pensieri inutili questi, adesso!” Fai cenno agli al- tri di rimanere indietro, nella relativa protezione di un anfratto buio. Quindi, brandendo saldamen- te la mazza da baseball, avanzi con cautela cercan- do di non lasciar trasparire il puro terrore che ti attanaglia le viscere.
 
-<i>Prosegui al [Regolamento di Gioco](#rules).</i> 
+![Specchio](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/specchio.png)
+
+Prosegui al [Regolamento di Gioco](#rules).
 
 
 ### Regolamento {#rules}

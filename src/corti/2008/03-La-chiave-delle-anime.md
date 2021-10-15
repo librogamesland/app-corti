@@ -483,6 +483,10 @@ Alza la mano destra verso di te, e ti accorgi che stringe in pugno una pietra vi
 
 Un aura di malvagità sgorga dalla gemma e ti fa arretrare, mentre un freddo glaciale cala attorno a te, impedendoti ogni reazione.
 
+![Prothias](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/prothias.png)
+
+<i>Autrice dell’immagine: Paola Pettinotti</i>
+
 "Questa, amico mio, è la Chiave delle Anime. Un potente artefatto, forgiato millenni orsono dai maghi di una civiltà ormai da tempo dimenticata. Possiede poteri che la tua mente limitata non può nemmeno immaginare... Ho scoperto la sua esistenza anni fa, e da allora il mio sogno è sempre stato quello di trovarla, e, grazie ai suoi incredibili poteri, impadronirmi del Potere supremo. Il tutto, ovviamente, nel massimo segreto: molto meglio che il mondo continuasse a ritenermi un banale mercante. È molto più sicuro, non trovi?
 
 Finalmente, dopo molti tentativi e anni di spasmodica ricerca, ho trovato il modo di farla

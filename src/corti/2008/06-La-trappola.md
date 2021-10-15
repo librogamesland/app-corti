@@ -156,6 +156,8 @@ Eppure, per quanto ti sforzi..
 
 Torna al [Paragrafo 1](#1).
 
+![Maschera Veneziana](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/maschera-veneziana.png)
+
 
 
 ### 3
@@ -389,6 +391,8 @@ Non essendovi altri passaggi sei dovuto tornare nel tunnel principale. Cosa hai 
 Cercando di evitare di perderti, hai cercato di recuperare una volta per tutte l’uscita della miniera? Vai al [Paragrafo 14](#14).
 
 Sei tornato alla grata? Vai al [Paragrafo 15](#15).
+
+![Dadi](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/dadi.png)
 
 
 
@@ -815,8 +819,6 @@ Solo, con il volto gonfio e porcino di Prothias fisso davanti a gli occhi.. Prot
 
 Vendetta. Questa parola non ha mai avuto un suono tanto dolce!
 Fine</i>
-
-
 
 
 

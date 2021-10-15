@@ -24,9 +24,13 @@ Solo con una vendetta da compiere!
 
 Vendetta. Questa parola non ha mai avuto un suono tanto dolce!
 
-<i>In questo racconto il protagonista sei tu!
+![pianto](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/pianto.png)
 
-Segui le istruzioni contenute nel [Regolamento di Gioco](#rules).</i> 
+<i>disegno di Bruna Cavalazzi</i>
+
+In questo racconto il protagonista sei tu!
+
+Segui le istruzioni contenute nel [Regolamento](#rules).
 
 
 ### Regolamento {#rules}
@@ -342,6 +346,11 @@ Se vinci il combattimento vai al [18](#18)
 
 ### 18
 Sai che l'unico modo per raggiungere il Tempio prima che accada l'irreparabile è arrivarci a cavallo. Il cavallo di Lonar è visibilmente stanco, ma giudichi che le energie che gli rimangono siano sufficienti per portarti a destinazione. Con decisione monti in sella e lo sproni a correre quanto più può in direzione del Tempio. Intorno a te vedi il panorama mutare, passare dalle Terre Arse alle città, dai campi alle foreste, a fetide paludi, a magnifici corsi d'acqua. Attraversi tutta la tua terra, portato da quello che fu il cavallo del tuo amico. Dopo aver percorso un lunghissimo tratto quasi senza fermarvi, senti che il cavallo comincia a cedere. Ti fermi per farlo riposare qualche minuto, per cercargli del cibo o dell'acqua, ma è tutto inutile. Il cavallo è stremato per le lunghe corse e crolla, vinto dalla fatica, quando mancano poche miglia al Tempio. Il territorio che si frappone tra te e la tua meta è inquietante, e temi agguati da creature oscure e spaventose ad ogni passo che compi. Ildisegno di Bruna Cavalazzituo incedere è sempre più difficile, per la stanchezza, la debolezza e l'aria ad un tempo rarefatta e densa di paura allo stato puro. Le forme dei pochi arbusti che incontri ricordano corpi scheletrici imprigionati nel legno secco da una forza sconosciuta, e di tanto in tanto si alza un alito di vento, a volte caldo come il fuoco, a volte freddo come il ghiaccio, che ti sferza e ti fa male. Il coraggio non ti è mai mancato, ma in questo posto perdere il senno è quanto di più facile possa accadere. Ricordi le ammonizioni di quando eri ancora uno studente, le storie che si narravano sulla Terra Estrema, e ti senti stupido ad averle sempre bollate come follie di alcuni vecchi. Ora che ti trovi immerso nel pieno delle Terre Estreme, mentre avanzi con passi lenti e sempre più difficili da compiere, l'unica cosa che riesci a fare è piangere, Piangi pensando a coloro ai quali non hai creduto riguardo a questi luoghi. Piangi pensando ai tuoi compagni, caduti in un modo così assurdo, mandati come te a morte certa da un vigliacco schiavo del Male. Piangi pensando a Lonar, alla sua illusione che vi ha portati a combattere l'uno contro l'altro fino alla morte. Piangi pensando a te stesso, sconfortato nel sentirti così debole prima di dover affrontare un avversario così potente. Lo sconforto sta per prendere il sopravvento.
+
+
+![Terre Arse](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/terre-arse.png)
+
+<i>disegno di Bruna Cavalazzi</i>
 
 Metti alla prova il tuo Valore (5, 5)
 
