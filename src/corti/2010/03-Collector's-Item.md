@@ -30,8 +30,7 @@ L’adrenalina che il fortunato ritrovamento ti ha liberato in corpo ti permette
 
 Poi vedi un bigliettino a terra, accanto a te. Si direbbe un biglietto da visita. Lo guardi:
 
-
-<TODO/>
+![Panteganus](https://librogamesland.github.io/app-corti/app-web/assets/img/2010/panteganus.png)
 
 
 Ma cosa significa?... Un muso di ratto con... cos’è... un’aureola?!

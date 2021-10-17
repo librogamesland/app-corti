@@ -1,5 +1,10 @@
 # Golem
+author: SkarnTasKai
+revision: 0
+last_edited: finito1
 
+
+### Introduzione {#intro}
 
 Questo librogame non è come tutti gli altri: infatti dovrai muovere contemporaneamente due personaggi, il cacciatore ed il golem. Per definire il paragrafo di partenza, lancia una sola volta un dado a 6 facce (1D6), e consulta la seguente tabella:
 

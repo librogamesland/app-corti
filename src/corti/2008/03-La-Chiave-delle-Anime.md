@@ -1,7 +1,13 @@
-# La chiave delle delle anime
-author: Federico "KingFede"
-revision: 13
-last_edited: finito1
+# 03 - La Chiave delle delle Anime (I Corti di Librogame's Land 2008)
+author:  Federico "KingFede" Righi
+
+raccolta: concorso "I Corti di Librogame's Land 2008"
+
+voto: 7.46/10
+
+posizione in classifica: 2
+
+Scopri di più sulla [pagina ufficiale del concorso](https://librogamesland.github.io/corti) o sul sito di Librogame's Land ([librogame.net](http://librogame.net))
 
 
 
@@ -24,21 +30,23 @@ Solo con una vendetta da compiere!
 
 Vendetta. Questa parola non ha mai avuto un suono tanto dolce!
 
-<i>In questo racconto il protagonista sei tu!
+<i>
 
-Segui le istruzioni contenute nel [Regolamento di Gioco](#rules).</i>
+In questo racconto sei tu, lettore, ad essere protagonista. A fine di ogni sezione troverai dei link; cliccando sull'opzione che preferisci potrai scegliere come far proseguire la storia.
+
+Prima di iniziare, leggi le istruzioni contenute nel [Regolamento di Gioco](#rules).</i>
 
 ### Regolamento {#rules}
 <b>Caratteristiche</b>
 
-Per determinare le tue caratteristiche hai bisogno di due comuni dadi a 6 facce.
+Per determinare le caratteristiche del tuo personaggio hai bisogno di due comuni dadi a 6 facce.
 
 <ul>
   <li><u>ABILITÀ</u>: Lancia un dado e aggiungi 6. Segna il totale nella casella “Abilità” del Registro d’Avventura.</li>
 
- <li>RESISTENZA: Lancia due dadi e aggiungi 20. Segna il totale nell’apposita casella del Registro d’Avventura. Questo totale non potrà mai essere superato nel corso dell’avventura.</li>
+ <li><u>RESISTENZA:</u> Lancia due dadi e aggiungi 20. Segna il totale nell’apposita casella del Registro d’Avventura. Questo totale non potrà mai essere superato nel corso dell’avventura.</li>
 
- <li>DESTINO: Lancia un dado e aggiungi 2. Segna il totale nella casella “Destino”.</li>
+ <li><u>DESTINO:</u> Lancia un dado e aggiungi 2. Segna il totale nella casella “Destino”.</li>
 
 </ul>
 
@@ -113,7 +121,7 @@ piacimento.
 
 - LANTERNA.
 
-Quando hai annotato tutto sulla scheda, prosegui all' [1](#1)
+Quando hai annotato tutto sulla scheda, inizia la lettura dal paragrafo [1](#1)
 
 
 ### 1
@@ -483,9 +491,8 @@ Alza la mano destra verso di te, e ti accorgi che stringe in pugno una pietra vi
 
 Un aura di malvagità sgorga dalla gemma e ti fa arretrare, mentre un freddo glaciale cala attorno a te, impedendoti ogni reazione.
 
-![Prothias](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/prothias.png)
+![Autrice dell’immagine: Paola Pettinotti](https://librogamesland.github.io/app-corti/app-web/assets/img/2008/prothias.png)
 
-<i>Autrice dell’immagine: Paola Pettinotti</i>
 
 "Questa, amico mio, è la Chiave delle Anime. Un potente artefatto, forgiato millenni orsono dai maghi di una civiltà ormai da tempo dimenticata. Possiede poteri che la tua mente limitata non può nemmeno immaginare... Ho scoperto la sua esistenza anni fa, e da allora il mio sogno è sempre stato quello di trovarla, e, grazie ai suoi incredibili poteri, impadronirmi del Potere supremo. Il tutto, ovviamente, nel massimo segreto: molto meglio che il mondo continuasse a ritenermi un banale mercante. È molto più sicuro, non trovi?
 

@@ -1,7 +1,13 @@
-# La trappola
+# 06 - La Trappola (I Corti di Librogame's Land 2008)
 author: Mauro "Mornon" Longo
-revision: 0
-last_edited: finito1
+
+raccolta: concorso "I Corti di Librogame's Land 2008"
+
+voto: 8.51/10
+
+posizione in classifica: 1
+
+Scopri di più sulla [pagina ufficiale del concorso](https://librogamesland.github.io/corti) o sul sito di Librogame's Land ([librogame.net](http://librogame.net))
 
 
 
@@ -23,7 +29,8 @@ L’unico, confuso, indizio che hai sono le ultime parole dette da Noggy mentre 
 Solo con una vendetta da compiere!
 
 Vendetta. Questa parola non ha mai avuto un suono tanto dolce!
-<i>In questo racconto il protagonista sei tu!
+<i>
+In questo racconto sei tu, lettore, ad essere protagonista. A fine di ogni sezione troverai dei link; cliccando sull'opzione che preferisci potrai scegliere come far proseguire la storia.
 
 Segui le istruzioni contenute nel [Regolamento di Gioco](#rules), poi inizia la lettura e scopri cosa accade ne “La Trappola”.</i>
 
@@ -818,6 +825,7 @@ Solo, con il volto gonfio e porcino di Prothias fisso davanti a gli occhi.. Prot
 <i>Solo con una vendetta da compiere!
 
 Vendetta. Questa parola non ha mai avuto un suono tanto dolce!
+
 Fine</i>
 
 
